@@ -1,0 +1,16 @@
+*{margin: 0;
+padding: 0;
+}
+
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    --color-fondo-1: #137063;
+    --color-fondo-2: #D26D56;
+    --color-fondo-3: #FFF3E7;
+
+    --color-circle: #EDBC9D;
+}

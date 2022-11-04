@@ -3,7 +3,7 @@
 }
 .inicio__container{
     display: flex;
-    width: 90%;
+    width: 95%;
     height: 450px;
     justify-content: space-around;
     margin: auto;
@@ -17,7 +17,7 @@
 .inicio__mainTitle{
     width: 70%;
     padding: 2rem 0 2rem 0;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 .inicio__parrafo{
     font-size: 1.2rem;
@@ -34,7 +34,6 @@
     align-items: center;
     width: 60%;
     padding-left: 2rem;
-
 }
 
 .inicio__btn--link{
@@ -44,19 +43,16 @@
     width: 30%;
     text-align: center;
     color: var(--color-fondo-3) ;
-
 }
 
 .inicio__btn--link:hover{
     background-color: #FFF3E7;
     color: #000000
-
 }
 
 .inicio__item{
     width: 1.5rem;
     margin-right: 1rem;
-
 }
 
 .inicio__img.indeed{
@@ -85,6 +81,36 @@
 }
 .inicio__foto{
     width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .inicio__container{
+        flex-direction: column;
+        width: 90%;
+        align-items: start;
+        justify-content: start;
+        height: 780px;
+    }
+
+    .inicio__circle{
+        margin: 0 auto;
+    }
+    .inicio__mainTitle{
+        width: 250%;
+        font-size: 2rem;
+    }
+
+    .inicio__parrafo{
+        width: 250%;
+        text-align: justify;
+        padding-bottom: 2rem;
+    }
+    .inicio__footer{
+        display: none;
+    }
+
 }
 
 

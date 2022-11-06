@@ -20,19 +20,23 @@
         <!--Educacion -->
         <link href="./assets/css/educacion/educacion.css" rel="stylesheet">
 
-        <!--Educacion -->
+        <!--habilidades -->
+        <link href="./assets/css/habilidades/list.css" rel="stylesheet">
         <link href="./assets/css/habilidades/habilidades.css" rel="stylesheet">
+
+
+        <!--test  https://master.d2wr3pq6rub67g.amplifyapp.com/# -->
 
     </head>
     <body>
-        <section class="nav">
+        <section  id="inicio" class="nav">
             <nav class="nav__container">
                 <div class="nav__logo">
                     <span class="nav__textLogo">Frías</span>
                     <div class="nav__logo--name">Irvin</div>
                 </div>
                 <ul class="nav__list">
-                    <li class="nav__item"><a class="nav__link" href="#">Inicio</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#inicio">Inicio</a></li>
                     <li class="nav__item"><a class="nav__link" href="#educacion">Educación</a></li>
                     <li class="nav__item"><a class="nav__link" href="#habilidades">Habilidades</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">Proyectos</a></li>
@@ -116,21 +120,34 @@
                             <h4 class="card__date"> Oracle (2022)</h4>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
         <section class="habilidades">
             <div  id="habilidades" class="habilidades__container">
                 <h2 class="habilidades__mainTitle">Habilidades</h2>
+
+                <div class="list__container">
+                    <ul class="list">
+                        <li class="list__item"> <button type="button" class="list__btn active">Básicas</button></li>
+                        <li class="list__item"> <button type="button" class="list__btn">Frameworks</button></li>
+                        <li class="list__item"> <button type="button" class="list__btn">Diseño UI/UX</button></li>
+                        <li class="list__item"> <button type="button" class="list__btn">IDE´s</button></li>
+                        <li class="list__item"> <button type="button" class="list__btn">Lenguajes</button></li>
+                    </ul>
+
+                </div>
                 <div class="habilidades__cards">
                     <div class="habilidades__card--card">
                         <div class="habilidades__img--container">
                             <img  class="habilidades__img" src="./assets/img/habilidades/bg-1.jpeg" alt="background">
                             <div class="habilidades__over">
-                                <img src="./assets/img/habilidades/tech/" alt="hola">
-                                <img src="./assets/img/" alt="hola">
-                                <img src="./assets/img/" alt="hola">
+                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/HTML_logo.svg"
+                                     alt="hola" loading="lazy">
+                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/CSS_logo.svg"
+                                     alt="hola" loading="lazy">
+                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/JS_logo%20_2.svg"
+                                     alt="hola" loading="lazy">
                             </div>
                         </div>
 
@@ -157,12 +174,13 @@
                             </p>
                         </div>
                         <div class="habilidades__img--container">
-                            <img  class="habilidades__img" src="./assets/img/habilidades/bg-2.png" alt="background">
+                            <img  class="habilidades__img" src="./assets/img/habilidades/bg-2.png" alt="background" loading="lazy">
 
                             <div class="habilidades__over">
                                 <img class="habilidades__svg" src="./assets/img/habilidades/tech/Angular_logo.svg"
-                                     alt="hola">
-                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/React_logo.svg" alt="hola">
+                                     alt="hola" loading="lazy">
+                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/React_logo.svg"
+                                     alt="hola" loading="lazy">
 
                             </div>
 
@@ -175,11 +193,12 @@
                     </div>
                     <div class="habilidades__card--card">
                         <div class="habilidades__img--container">
-                            <img  class="habilidades__img" src="./assets/img/habilidades/bg-3.jpeg" alt="background">
+                            <img  class="habilidades__img" src="./assets/img/habilidades/bg-3.jpeg" alt="background" loading="lazy">
                             <div class="habilidades__over">
                                 <img  class="habilidades__svg" src="./assets/img/habilidades/tech/Figma_logo.svg"
-                                      alt="hola">
-                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/AdobeXd_logo.svg" alt="hola">
+                                      alt="hola" loading="lazy">
+                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/AdobeXd_logo.svg"
+                                     alt="hola" loading="lazy">
                             </div>
                         </div>
 
@@ -206,11 +225,13 @@
                             </p>
                         </div>
                         <div class="habilidades__img--container">
-                            <img  class="habilidades__img" src="./assets/img/habilidades/bg-2.png" alt="background">
+                            <img  class="habilidades__img" src="./assets/img/habilidades/bg-5.jpeg" alt="background" loading="lazy">
 
                             <div class="habilidades__over">
-                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/intellij-idea_logo.svg" alt="hola">
-                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/Webstorm_logo.svg" alt="hola">
+                                <img class="habilidades__svg"
+                                     src="./assets/img/habilidades/tech/intellij-idea_logo.svg" alt="hola" loading="lazy">
+                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/Webstorm_logo.svg"
+                                     alt="hola" loading="lazy">
                             </div>
 
 
@@ -222,11 +243,14 @@
                     </div>
                     <div class="habilidades__card--card">
                         <div class="habilidades__img--container">
-                            <img  class="habilidades__img" src="./assets/img/habilidades/bg-4.jpeg" alt="background">
+                            <img  class="habilidades__img" src="./assets/img/habilidades/bg-4.jpeg" alt="background" loading="lazy">
                             <div class="habilidades__over">
-                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/Java_logo.svg" alt="hola">
-                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/JS_logo.svg" alt="hola">
-                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/Git_logo.svg" alt="hola">
+                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/Java_logo.svg"
+                                     alt="hola" loading="lazy">
+                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/JS_logo.svg"
+                                     alt="hola" loading="lazy">
+                                <img class="habilidades__svg" src="./assets/img/habilidades/tech/Git_logo.svg"
+                                     alt="hola" loading="lazy">
                             </div>
                         </div>
 
@@ -246,6 +270,11 @@
             </div>
 
         </section>
+        <section class="proyectos">
+            Hola
+
+        </section>
 
     </body>
+    <script src="./src/habilidades_carrusel.js"></script>
 </html>

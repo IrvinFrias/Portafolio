@@ -1,0 +1,38 @@
+.list__container{
+    background-color: var(--color-fondo-2);
+    margin-bottom: 2rem;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.list__item{
+    margin-left: 1rem;
+}
+.list__btn{
+    padding: 1rem;
+    background-color: var(--color-fondo-2);
+    color: var(--color-fondo-3);
+    font-size: 1.0rem;
+    border: none;
+}
+.list__btn:hover{
+    background-color: var(--color-fondo-1);
+
+}
+.list__btn.active{
+    border-bottom: black solid 2px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .list__btn{
+        font-size: 0.7rem;
+        padding: 0.8rem;
+    }
+    .list__item{
+        margin-left: 0.3rem;
+    }
+
+
+}

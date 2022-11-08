@@ -1,0 +1,19 @@
+.footer__bottom{
+    background-color: black;
+    height: 100px;
+
+}
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+    color: var(--color-fondo-3);
+    font-size: 1rem;
+    height: 100%;
+    align-items: center;
+}
+.footer__autor{
+    color: var(--color-fondo-2);
+}
+.footer__autor:hover{
+    color: var(--color-fondo-3);
+}

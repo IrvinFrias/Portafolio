@@ -37,7 +37,7 @@
 }
 
 .inicio__btn--link{
-    background-color: #D26D56;
+    background-color: var(--color-fondo-2);
     padding: 0.7rem;
     border-radius: 10px;
     width: 30%;

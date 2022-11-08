@@ -52,7 +52,7 @@
 .nav__svg{
     width: 40px;
     height: 40px;
-    background-color: #D26D56;
+    background-color: var(--color-fondo-2);
     border-radius: 50%;
     position: relative;
 }

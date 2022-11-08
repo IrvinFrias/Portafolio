@@ -1,0 +1,18 @@
+.proyectos__puntos{
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 3rem 0;
+}
+.proyectos__punto{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.35);
+    margin-left: 1.2rem;
+    border-radius: 50%;
+}
+
+.proyectos__punto.active{
+    background-color: var(--color-fondo-2);
+}

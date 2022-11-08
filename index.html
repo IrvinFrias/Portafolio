@@ -5,8 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portafolio Web | Frías Torres Irvin</title>
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- icons web-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!-- Tipografía Komet Adobe Fonts-->
+        <link rel="stylesheet" href="https://use.typekit.net/znh8hei.css">
 
         <!--General -->
         <link href="index.css" rel="stylesheet">
@@ -23,6 +25,14 @@
         <!--habilidades -->
         <link href="./assets/css/habilidades/list.css" rel="stylesheet">
         <link href="./assets/css/habilidades/habilidades.css" rel="stylesheet">
+
+        <!--Proyectos-->
+        <link href="./assets/css/proyectos/proyectos.css" rel="stylesheet">
+        <link href="./assets/css/proyectos/puntos.css" rel="stylesheet">
+
+        <!-- Footer -->
+        <link href="./assets/css/footer/footer__top.css" rel="stylesheet">
+        <link href="./assets/css/footer/footer__bottom.css" rel="stylesheet">
 
 
         <!--test  https://master.d2wr3pq6rub67g.amplifyapp.com/# -->
@@ -270,11 +280,142 @@
             </div>
 
         </section>
+
+
+
         <section class="proyectos">
-            Hola
+            <div class="proyectos__container" id="proyectos">
+                <h2 class="proyectos__mainTitle">Proyectos</h2>
+                <div class="proyectos__slider">
+                    <div class="slider__button--left">
+                        <span class="material-symbols-outlined left">arrow_back_ios</span>
+
+                    </div>
+                    <div class="proyectos__top">
+                        <div class="proyectos__cards">
+                            <div class="proyectos__card">
+                                <img  class="proyectos__img" loading="lazy" src="./assets/img/proyecto/pry-1.jpeg"
+                                      alt="Proyecto 1">
+                                <div class="proyectos__fotter">
+                                    <h3 class="proyectos__subtitle">Casa cafetalera Frías</h3>
+                                    <p class="proyectos__parrafo">El objetivo principal de un diseñador es conocer y expresar su propio estilo personal.
+                                        Conocer su estilo de diseño de interiores lo ayuda a comunicarse con otros sobre ideas de decoración.
+                                        También le ayuda a diseñar su espacio para reflejar sus deseos y necesidades. Sepa que elegir un estilo de diseño de interiores no es tan difícil como parece,
+                                        solo requiere un poco de introspección honesta. Estos son algunos consejos para elegir un estilo de diseño de interiores:</p>
+                                    <button  class="proyecto__button"
+                                             type="button"><a class="proyectos__link" href="#">Ir al proyecto</a></button>
+                                </div>
+                            </div>
+                            <div class="proyectos__card">
+                                <img  class="proyectos__img" src="./assets/img/proyecto/pry-2.jpeg" alt="Proyecto 2"
+                                      loading="lazy">
+                                <div class="proyectos__fotter">
+                                    <h3 class="proyectos__subtitle">Casa cafetalera Frías</h3>
+                                    <p class="proyectos__parrafo">El objetivo principal de un diseñador es conocer y expresar su propio estilo personal.
+                                        Conocer su estilo de diseño de interiores lo ayuda a comunicarse con otros sobre ideas de decoración.
+                                        También le ayuda a diseñar su espacio para reflejar sus deseos y necesidades. Sepa que elegir un estilo de diseño de interiores no es tan difícil como parece,
+                                        solo requiere un poco de introspección honesta. Estos son algunos consejos para elegir un estilo de diseño de interiores:</p>
+                                    <button  class="proyecto__button"
+                                             type="button"><a class="proyectos__link" href="#">Ir al proyecto</a></button>
+                                </div>
+                            </div>
+                            <div class="proyectos__card">
+                                <img  class="proyectos__img" src="./assets/img/proyecto/pry-3.jpeg" alt="Proyecto 1" loading="lazy">
+                                <div class="proyectos__fotter">
+                                    <h3 class="proyectos__subtitle">Casa cafetalera Frías</h3>
+                                    <p class="proyectos__parrafo">El objetivo principal de un diseñador es conocer y expresar su propio estilo personal.
+                                        Conocer su estilo de diseño de interiores lo ayuda a comunicarse con otros sobre ideas de decoración.
+                                        También le ayuda a diseñar su espacio para reflejar sus deseos y necesidades. Sepa que elegir un estilo de diseño de interiores no es tan difícil como parece,
+                                        solo requiere un poco de introspección honesta. Estos son algunos consejos para elegir un estilo de diseño de interiores:</p>
+                                    <button  class="proyecto__button"
+                                             type="button"><a class="proyectos__link" href="#">Ir al proyecto</a></button>
+                                </div>
+                            </div>
+                            <div class="proyectos__card">
+                                <img  class="proyectos__img" src="./assets/img/proyecto/pry-4.jpeg" alt="Proyecto 4" loading="lazy">
+                                <div class="proyectos__fotter">
+                                    <h3 class="proyectos__subtitle">Casa cafetalera Frías</h3>
+                                    <p class="proyectos__parrafo">El objetivo principal de un diseñador es conocer y expresar su propio estilo personal.
+                                        Conocer su estilo de diseño de interiores lo ayuda a comunicarse con otros sobre ideas de decoración.
+                                        También le ayuda a diseñar su espacio para reflejar sus deseos y necesidades. Sepa que elegir un estilo de diseño de interiores no es tan difícil como parece,
+                                        solo requiere un poco de introspección honesta. Estos son algunos consejos para elegir un estilo de diseño de interiores:</p>
+                                    <button  class="proyecto__button"
+                                             type="button"><a class="proyectos__link" href="#">Ir al proyecto</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__button--right">
+                        <span class="material-symbols-outlined right">arrow_forward_ios</span>
+                    </div>
+                </div>
+                <div class="proyectos__puntos">
+                    <span class="proyectos__punto active"></span>
+                    <span class="proyectos__punto"></span>
+                    <span class="proyectos__punto"></span>
+                </div>
+
+            </div>
+
+
 
         </section>
 
+
+        <footer class="footer">
+            <section class="footer__top">
+                <div class="footer__topContainer">
+                    <div class="lists">
+                        <ul class="footer_topList">
+                            <li class="footer__item"> <a class="footer__link--head" href="#inicio">Inicio</a></li>
+                            <li class="footer__item"> <a class="footer__link" href="#">Linkedin</a></li>
+                            <li class="footer__item"> <a class="footer__link" href="#">Indeed</a></li>
+                            <li class="footer__item"> <a class="footer__link" href="#">Glasdoor</a></li>
+                        </ul>
+                    </div>
+                    <div class="lists">
+                        <ul class="footer_topList">
+                            <li class="footer__item"> <a class="footer__link--head" href="#educacion">Educación</a></li>
+                            <li class="footer__item"> <a class="footer__link" href="#educacion">Licenciatura</a></li>
+                            <li class="footer__item"> <a class="footer__link" href="#educacion">Diplomado</a></li>
+                            <li class="footer__item"> <a class="footer__link" href="#educacion">Bootcamp</a></li>
+                        </ul>
+                    </div>
+                    <div class="lists">
+                        <ul class="footer_topList">
+                            <li class="footer__item"> <a class="footer__link--head" href="#proyectos">Proyectos</a></li>
+                            <li class="footer__item"> <a class="footer__link" href="#proyectos">Café Frías</a></li>
+                            <li class="footer__item"> <a class="footer__link" href="#proyectos">Calculadora</a></li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="#proyectos">Casa Fotográfica</a></li>
+                            <li class="footer__item"> <a class="footer__link" href="#proyectos">Vinos y licores</a></li>
+                        </ul>
+                    </div>
+                    <div class="lists">
+                        <ul class="footer_topList">
+                            <li class="footer__item">
+                                <a class="footer__link--head" href="#habilidades">Habilidades</a></li>
+                            <li class="footer__item"> <a class="footer__link" href="#">Café Frías</a></li>
+                            <li class="footer__item"> <a class="footer__link" href="#habilidades">Calculadora</a></li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="#habilidades">Casa Fotográfica</a></li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="#habilidades">Vinos y licores</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="footer__bottom">
+                <p class="footer__copyright">&copy;Todos los derechos reservados, CDMX, 2022, <a
+                        class="footer__autor" href="https://bit.ly/3Uh9kiA"> Frías Irvin.</a></p>
+            </section>
+        </footer>
+
+
+
     </body>
     <script src="./src/habilidades_carrusel.js"></script>
+    <script src="./src/proyectos_slider.js"></script>
 </html>

@@ -8,9 +8,13 @@ ul,li,a{
 
 }
 body{
-    --color-fondo-1: #137063;
-    --color-fondo-2: #D26D56;
+    --color-fondo-1: #000000;
+    --color-fondo-2: #a31939;
     --color-fondo-3: #FFF3E7;
 
     --color-circle: #EDBC9D;
+
+    font-family: practical-serif,sans-serif;
+    font-weight: 100;
+
 }
